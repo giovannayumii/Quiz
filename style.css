@@ -4,42 +4,80 @@
     padding:0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
+    margin-top: 15px;
+    background-color: rgb(112, 72, 153);
+    color:white;
 }
 h2{
     margin-top: 35px;;
 }
 .buttons{
-    position: absolute;
-    bottom:10%;
-    left: 50%;
-    width: 65%;
-    /*background-color: red;*/
-    transform: translate(-57%,0);
-    display: flex;/* os dois botões ficam um do lado do outro, se não fosseo display um fica em cima e o outro em baixo*/
-    gap:20px; /*para ficar um pouco separado*/
+    text-align: center;
+    gap:20%; /*para ficar um pouco separado*/
 }
-.button{
+.btn-azul{
     width:50%;
-    padding:4%;
-    border: 2px solid #000;
+    padding:3%;
+    border: 2px solid rgb(66, 120, 190);
     border-radius:5px;
     font-size: clamp(8px, 5vw, 1rem);
     font-weight: 600;
-    color: white;
-    background-color: #444;
-    box-shadow: 2px 3px 0 #222, 4px 6px 0 #000;
+    background-color: rgb(66, 120, 190);
 }
-.button:active{
-    /*background-color: red;*/
-    box-shadow: inset -4px 4px 0 #222; /* "afunda o botão" */
+.btn-azul:active{
+    box-shadow: inset -4px 4px 0 rgb(31, 97, 197); /* "afunda o botão" */
+    font-size: 0.9ren;
+}
+.btn-verdepiscina{
+    width:50%;
+    padding:3%;
+    border: 2px solid rgb(75, 185, 185);
+    border-radius:5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    background-color: rgb(75, 185, 185);
+}
+.btn-verdepiscina:active{
+    box-shadow: inset -4px 4px 0 rgb(31, 97, 197); /* "afunda o botão" */
+    font-size: 0.9ren;
+}
+.btn-amarelo{
+    width:50%;
+    padding:3%;
+    border: 2px solid rgb(201, 179, 83);
+    border-radius:5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    background-color: rgb(201, 179, 83);
+}
+.btn-amarelo:active{
+    box-shadow: inset -4px 4px 0 rgb(31, 97, 197); /* "afunda o botão" */
+    font-size: 0.9ren;
+}
+.btn-rosa{
+    width:50%;
+    padding:3%;
+    border: 2px solid rgb(206, 112, 170);
+    border-radius:5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    background-color: rgb(206, 112, 170);
+}
+.btn-rosa:active{
+    box-shadow: inset -4px 4px 0 rgb(31, 97, 197); /* "afunda o botão" */
+    font-size: 0.9ren;
+}
+.btn-roxo{
+    width:50%;
+    padding:3%;
+    border: 2px solid rgb(135, 63, 138);
+    border-radius:5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    background-color: rgb(135, 63, 138);
+}
+.btn-roxo:active{
+    box-shadow: inset -4px 4px 0 rgb(31, 97, 197); /* "afunda o botão" */
     font-size: 0.9ren;
 }
 
-main{
-    /*background-color: red;*/
-    display: inline-block;
-    margin-top: 2%;
-    padding: 15px;
-    position: relative;
-}
