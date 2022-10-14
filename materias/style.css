@@ -1,0 +1,17 @@
+body {
+
+    text-align: justify;
+    position: absolute;
+    width: 65%;
+    top: 5%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    margin-top: 3%;
+}
